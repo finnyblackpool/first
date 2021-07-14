@@ -15,7 +15,7 @@ public class CSVparser {
 
 	//public static void main(ArrayList<String> languages) {
 	public static void main(String... args) {
-        List<Account> accounts = readBankRecFromCSV("C:\\Users\\andre\\eclipse-workspace\\Jade 07-2021\\src\\customermortgage.csv");
+        List<Account> accounts = readBankRecFromCSV("C:\\Users\\andre\\eclipse-workspace\\Jade 07-2021\\src\\customer-loans.csv");
 
         // let's print all the accounts read from CSV file
         for (Account b : accounts) {
